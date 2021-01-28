@@ -15,7 +15,7 @@
       },
       "root": "",
       "sourceRoot": "src",
-      "prefix": "app",
+      "prefix": "sb",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -68,7 +68,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "saeed-bayat:build"
+            "browserTarget": "saeed-bayat:build",
+            "port": 8008
           },
           "configurations": {
             "production": {
